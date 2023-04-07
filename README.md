@@ -24,11 +24,13 @@ https://rspec.info/features/6-0/rspec-rails/matchers/have-enqueued-job-matcher
 ```
 # Gemfile
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0.0'
+  gem "rspec-rails", "~> 6.0.0"
 end
 
 bundle install
 rails generate rspec:install
+
+git rm test
 git add .
 git commit -am"rails generate rspec:install"
 ```
@@ -48,7 +50,6 @@ RSpec.configure do |config|
   # Instead of adding `fixtures :all` to eash spec, we can enable it here
   config.global_fixtures = :all
 ```
-* Fixtures enabled by using `fixtures :all` in a clas
 
 ## Usage
 
