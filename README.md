@@ -54,8 +54,16 @@ RSpec.configure do |config|
 ## Usage
 
 <https://github.com/rspec/rspec-rails#what-tests-should-i-write>
-Mostly we use
-[requests](https://rspec.info/features/6-0/rspec-rails/request-specs/request-spec/) and [system](https://rspec.info/features/6-0/rspec-rails/system-specs/system-specs/)
+We use model, request and system tests.
 
 * Basic matches [rspec-expectations](https://rspec.info/features/3-12/rspec-expectations/built-in-matchers/). Do not use *should* matchers.
 
+## Model spec
+
+## Request spec
+
+<https://rspec.info/features/6-0/rspec-rails/request-specs/request-spec/>
+
+## System spec
+
+<https://rspec.info/features/6-0/rspec-rails/system-specs/system-specs/
